@@ -2,10 +2,10 @@
 - [ ] offer unsolicited ids to the application
 - [ ] look for source code (like java script or php (.js or .php))
 - [ ] change request methods and try the above task
-- [ ] Recon
+- [ ] —→ RECON ←—-
 - [ ] extract all JS files
 - [ ] Directory enumeration 
-- [ ] Subdomain enumeration
+- [ ] ——-sub——> Subdomain enumeration ←—-sub——-
 - [ ] Extract all urls 
 - [ ] use 
 - [ ] https://medusa0xf.medium.com/how-i-found-a-3000-idor-vulnerability-in-a-delivery-app-d15167b6f963?sk=c9546ff39b5c9a27201cda30fd401141
@@ -13,7 +13,7 @@
 - [ ] broken link hijacking 
 - [ ] use Can-I-Takeover xyz for reference and the proof, if it’s not enough just go for taking over the subdomain
 - [ ] use custom build web scrapers or already available tools or just do it manually
-- [ ] Subdomain takeover
+- [ ] ———> Subdomain Takeover ←——
 - [ ] try injecting {{7*7}} and check for internal server errors or the results 
 - [ ] use ngrok to forward the request to the 
 - [ ] run an http server with python
